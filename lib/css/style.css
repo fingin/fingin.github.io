@@ -11,7 +11,7 @@ html, body{
     margin: 0;
     overflow-x: hidden;
     background: ##858585;
-    background-image: url("http://fingin.github.io/lib/css/img/zenbg-1.png"), url("http://fingin.github.io/lib/css/img/zenbg-2.png");
+    background-image: url("http://fingin.github.io/lib/css/img/ZenBG-1.png"), url("http://fingin.github.io/lib/css/img/ZenBG-2.png");
     background-repeat: repeat-y, repeat;
 }
 
