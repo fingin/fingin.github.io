@@ -10,8 +10,6 @@ html, body{
     min-width: 1000px;
     padding: 0;
     margin: 0;
-    background-image: url("lib\css\img\Bg.jpg");
-    background-color: #cccccc;
     overflow-x: hidden;
 }
 
