@@ -4,17 +4,11 @@
     margin-left: 5px;
 }
 #background {
-    width: 100%; 
-    height: 100%; 
-    position: fixed; 
-    left: 0px; 
-    top: 0px; 
-    z-index: -99; /* Ensure div tag stays behind content; -999 might work, too. */
+    background: ##858585;
+    background-image: url("http://fingin.github.io/lib/css/img/zenbg-1.png"), url("http://fingin.github.io/lib/css/img/zenbg-2.png");
+    background-repeat: repeat-y, repeat;
 }
-.stretch {
-    width:100%;
-    height:100%;
-}
+
 html, body{
     width: 100%;
     height: 100%;
