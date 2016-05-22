@@ -10,7 +10,7 @@ html, body{
     min-width: 1000px;
     padding: 0;
     margin: 0;
-    background: #1AA1DD;
+    background: #111;
     overflow-x: hidden;
     color: white;
 }
@@ -43,18 +43,18 @@ a{
 #startNewGameButton, #connectButton, #cashoutButton, #playAgainButton{
     width: 150px;
     height: 2em;
-    background: #ffffff;
-    border: 1px solid #f0ffff;
+    background: #90c739;
+    border: 1px solid #52b000;
     color: #fff;
-    text-shadow: 0 -1px 0 #f0ffff;
+    text-shadow: 0 -1px 0 #52b000;
     text-transform: uppercase;
     font-weight: bold;
     margin: 20px 20px 20px 0;
     outline: none;
-    -moz-box-shadow: 0 2px 0 #800080,0 3px 1px #000,inset 0 1px 0 rgba(255,255,255,.2);
-    -webkit-box-shadow: 0 2px 0 #800080,0 3px 1px #000,inset 0 1px 0 rgba(255,255,255,.2);
-    -o-box-shadow: 0 2px 0 #800080,0 3px 1px #000,inset 0 1px 0 rgba(255,255,255,.2);
-    box-shadow: 0 2px 0 #800080,0 3px 1px #000,inset 0 1px 0 rgba(255,255,255,.2);
+    -moz-box-shadow: 0 2px 0 #225a00,0 3px 1px #000,inset 0 1px 0 rgba(255,255,255,.2);
+    -webkit-box-shadow: 0 2px 0 #225a00,0 3px 1px #000,inset 0 1px 0 rgba(255,255,255,.2);
+    -o-box-shadow: 0 2px 0 #225a00,0 3px 1px #000,inset 0 1px 0 rgba(255,255,255,.2);
+    box-shadow: 0 2px 0 #225a00,0 3px 1px #000,inset 0 1px 0 rgba(255,255,255,.2);
     -webkit-tap-highlight-color: transparent;
 }
 
@@ -63,32 +63,32 @@ a{
     right: 5px;
     bottom: 8px;
     width: 70px;
-    background: #ffffff;
-    border: 1px solid #f0ffff;
+    background: #90c739;
+    border: 1px solid #52b000;
     color: #fff;
-    text-shadow: 0 -1px 0 #f0ffff;
+    text-shadow: 0 -1px 0 #52b000;
     text-transform: uppercase;
     font-weight: bold;
     outline: none;
-    -moz-box-shadow: 0 2px 0 #800080,0 3px 1px #000,inset 0 1px 0 rgba(255,255,255,.2);
-    -webkit-box-shadow: 0 2px 0 #800080,0 3px 1px #000,inset 0 1px 0 rgba(255,255,255,.2);
-    -o-box-shadow: 0 2px 0 #800080,0 3px 1px #000,inset 0 1px 0 rgba(255,255,255,.2);
-    box-shadow: 0 2px 0 #800080,0 3px 1px #000,inset 0 1px 0 rgba(255,255,255,.2);
+    -moz-box-shadow: 0 2px 0 #225a00,0 3px 1px #000,inset 0 1px 0 rgba(255,255,255,.2);
+    -webkit-box-shadow: 0 2px 0 #225a00,0 3px 1px #000,inset 0 1px 0 rgba(255,255,255,.2);
+    -o-box-shadow: 0 2px 0 #225a00,0 3px 1px #000,inset 0 1px 0 rgba(255,255,255,.2);
+    box-shadow: 0 2px 0 #225a00,0 3px 1px #000,inset 0 1px 0 rgba(255,255,255,.2);
     -webkit-tap-highlight-color: transparent;
 }
 
 #faucetButton, #depositButton, #withdrawButton{
-    background: #ffffff;
-    border: 1px solid #f0ffff;
+    background: #90c739;
+    border: 1px solid #52b000;
     color: #fff;
-    text-shadow: 0 -1px 0 #f0ffff;
+    text-shadow: 0 -1px 0 #52b000;
     text-transform: uppercase;
     font-weight: bold;
     outline: none;
-    -moz-box-shadow: 0 2px 0 #800080,0 3px 1px #000,inset 0 1px 0 rgba(255,255,255,.2);
-    -webkit-box-shadow: 0 2px 0 #800080,0 3px 1px #000,inset 0 1px 0 rgba(255,255,255,.2);
-    -o-box-shadow: 0 2px 0 #800080,0 3px 1px #000,inset 0 1px 0 rgba(255,255,255,.2);
-    box-shadow: 0 2px 0 #800080,0 3px 1px #000,inset 0 1px 0 rgba(255,255,255,.2);
+    -moz-box-shadow: 0 2px 0 #225a00,0 3px 1px #000,inset 0 1px 0 rgba(255,255,255,.2);
+    -webkit-box-shadow: 0 2px 0 #225a00,0 3px 1px #000,inset 0 1px 0 rgba(255,255,255,.2);
+    -o-box-shadow: 0 2px 0 #225a00,0 3px 1px #000,inset 0 1px 0 rgba(255,255,255,.2);
+    box-shadow: 0 2px 0 #225a00,0 3px 1px #000,inset 0 1px 0 rgba(255,255,255,.2);
     -webkit-tap-highlight-color: transparent;
 }
 
@@ -209,8 +209,8 @@ a{
 
 #chat #connectButton:active, #chat #connectButton:disabled {
     bottom: 3px;
-    box-shadow: 0 1px 1px #000, inset 0 2px 4px #cc00cc;
-    border: 1px solid #ff99ff;
+    box-shadow: 0 1px 1px #000, inset 0 2px 4px #060;
+    border: 1px solid #070;
     color: rgba(255, 255, 255, .5);
 }
 
@@ -301,7 +301,7 @@ a{
 
 #highRoller_log{
     width: 310px;
-    height: 320px;
+    height: 310px;
     position: absolute;
     top: 135px;
     left: calc(50% - 500px);
@@ -378,10 +378,10 @@ a{
 
 #game_log #game_actions #cashoutButton{
     font-size: 1.3em;
-    background: #c9c9c9;
-    border: 1px solid #808080;
+    background: #e5ac00;
+    border: 1px solid #e58a00;
     color: #fff;
-    text-shadow: 0 -1px 0 #808080;
+    text-shadow: 0 -1px 0 #e58a00;
     box-shadow: 0 2px 0 #a60,0 3px 1px #000,inset 0 1px 0 rgba(255,255,255,.2);
     width: 100%;
     margin: 0;
@@ -418,7 +418,7 @@ a{
 
 #board {
     margin: 0;
-    background: #ff6600;
+    background: #333;
     padding: 16px;
     position: absolute;
     top: 0;
@@ -426,12 +426,12 @@ a{
     bottom: 0;
     right: 0;
     display: inline-block;
-    -moz-box-shadow: 0 1px 2px #b34700;
-    -webkit-box-shadow: 0 1px 2px #b34700;
-    box-shadow: 0 1px 2px #b34700;
-    border: 1px solid #ff944d;
-    border-bottom-color: #b34700;
-    border-top-color: #ffc299;
+    -moz-box-shadow: 0 1px 2px #000;
+    -webkit-box-shadow: 0 1px 2px #000;
+    box-shadow: 0 1px 2px #000;
+    border: 1px solid #444;
+    border-bottom-color: #111;
+    border-top-color: #555;
     list-style: none;
 }
 
@@ -444,8 +444,8 @@ a{
 
 #board #startNewGameButton:active, #board #startNewGameButton:disabled {
     top: 162px;
-    box-shadow: 0 1px 1px #000, inset 0 2px 4px #800080;
-    border: 1px solid #cc00cc;
+    box-shadow: 0 1px 1px #000, inset 0 2px 4px #060;
+    border: 1px solid #070;
     color: rgba(255, 255, 255, .5);
 }
 
@@ -544,13 +544,13 @@ a{
     width: 20%;
     height: 3em;
     margin: 0;
-    background: #ff6600;
+    background: #444;
     padding: 0;
     color: #fff;
-    border: 1px solid #ffa366;
-    border-top-color: #ffa366;
-    border-right-color: #e65c00;
-    border-bottom: 2px solid #b34700;
+    border: 1px solid #666;
+    border-top-color: #777;
+    border-right-color: #111;
+    border-bottom: 2px solid #1a1a1a;
     box-sizing: border-box;
     -moz-box-shadow: 0 .1em .1em #000;
     -webkit-box-shadow: 0 .1em .1em #000;
@@ -558,9 +558,9 @@ a{
     box-shadow: 0 .1em .1em #000;
 }
 #bombsButtons .button.active, #bombsButtons .button:active{
-    background: #b34700;
-    border: 1px solid #ffa366;
-    border-top-color: #ffa366;
+    background: #333;
+    border: 1px solid #111;
+    border-top-color: #000;
     box-shadow: inset 0 .2em .2em #111;
     font-weight: 600;
 }
@@ -622,12 +622,12 @@ a{
     width: 25%;
     padding: 0 5px;
     margin: 0;
-    background: ##ff6600;
+    background: #444;
     color: #fff;
-    border: 1px solid #ffa366;
-    border-top-color: #ffa366;
-    border-right-color: #e65c00;
-    border-bottom: 2px solid #b34700;
+    border: 1px solid #666;
+    border-top-color: #777;
+    border-right-color: #111;
+    border-bottom: 2px solid #1a1a1a;
     box-sizing: border-box;
     -moz-box-shadow: 0 .1em .1em #000;
     -webkit-box-shadow: 0 .1em .1em #000;
@@ -642,4 +642,55 @@ a{
     border-top-color: #000;
     box-shadow: inset 0 .2em .2em #111;
     font-weight: 600;
+}
+
+#game_allbets_log{
+    top: 480px;
+    width: 680px;
+    position: absolute;
+    left: calc(50% - 180px);
+}
+
+#game_allbets_log table{
+    background-color: transparent;
+}
+
+#game_allbets_log thead tr th{
+    width: 320px;
+    height: 50px;
+    line-height: 50px;
+    border-bottom: 1px solid rgba(255,255,255,0.1);
+    color: white;
+    font-size: 20px;
+    white-space: nowrap;
+    background: transparent;
+    padding: 0;
+}
+
+#game_allbets_log tbody tr td{
+    height: 26px;
+    padding: 0 0 0 10px;
+    color: #fff;
+}
+
+#game_allbets_log tbody tr td a{
+    font-weight: bold;
+    color: white;
+}
+
+#game_allbets_log tbody tr td.win{
+    border-left: 4px solid #8D4;
+}
+
+#game_allbets_log tbody tr td.lose{
+    border-left: 4px solid #E74C3C;
+}
+
+#macroInfo{
+    color: rgba(255,255,255,0.3);
+    width: 100%;
+    text-align: center;
+    margin-top: 100px;
+    font-size: 10px;
+    line-height: 12px;
 }
